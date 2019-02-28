@@ -4,7 +4,7 @@ server:
   servlet:
     context-path: /
 spring:
-  profile: prod
+  profiles: prod
   datasource:
     #引入druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
@@ -37,7 +37,7 @@ server:
   servlet:
     context-path: /
 spring:
-  profile: dev
+  profiles: dev
   datasource:
     #引入druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
